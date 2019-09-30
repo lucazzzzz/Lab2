@@ -10,7 +10,13 @@ Ensuite, il faut ajouter tous les fichiers d'en-tête et tous les fichiers sourc
 
 ![Screenshot #2](https://github.com/lucazzzzz/Lab2/blob/master/Images/AjouterFichiersdeGit.JPG)
 
-générer le module .pyd au même endroit que le .py
+Finalement, il faut régler correctement les propriétés du projet pour que le code fonctionne! Voici 3 images qui illustrent tous les ajouts à faire sur VisualStudio (ne pas oublier de changer les options pour Release et x64) :
+
+![Screenshot #3](https://github.com/lucazzzzz/Lab2/blob/master/Images/ProprietesProjetLib.JPG)
+
+![Screenshot #4](https://github.com/lucazzzzz/Lab2/blob/master/Images/LibrairiePython.JPG)
+
+![Screenshot #5](https://github.com/lucazzzzz/Lab2/blob/master/Images/LibrairieDirectShow.JPG)
 
 faire le pip install readchar pour utiliser la librairie
 
