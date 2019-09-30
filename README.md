@@ -10,7 +10,7 @@ Ensuite, il faut ajouter tous les fichiers d'en-tête et tous les fichiers sourc
 
 ![Screenshot #2](https://github.com/lucazzzzz/Lab2/blob/master/Images/AjouterFichiersdeGit.JPG)
 
-Finalement, il faut régler correctement les propriétés du projet pour que le code fonctionne! Voici 3 images qui illustrent toutes les librairies à ajouter et toutes les configurations à changer sur VisualStudio (ne pas oublier de changer les options de configuration pour Release et les options de plateforme pour x64) :
+Finalement, il faut régler correctement les propriétés du projet pour que le code fonctionne! Voici 3 images qui illustrent toutes les librairies à ajouter et toutes les configurations à changer sur VisualStudio (ne pas oublier de changer les options de configuration pour Release et les options de plateforme pour x64):
 
 ![Screenshot #3](https://github.com/lucazzzzz/Lab2/blob/master/Images/ProprietesProjetLib.JPG)
 
@@ -26,4 +26,10 @@ Il ne faut pas oublier d'ajouter la vidéo à manipuler au bon endroit, pour not
 
 ## Configuration Python
 
+Il ne reste que le fichier videoplayer.py à ajouter au bon endroit, se sera dans le même dossier que le fichier myModule.pyd. Il faut générer la solution sur VisualStudio avant de compléter cette étape. Ne pas oublier d'ouvrir la console de commande dans le même dossier que le fichier videoplayer.py:
 
+![Screenshot #7](https://github.com/lucazzzzz/Lab2/blob/master/Images/AjouterPYmyModule.JPG)
+
+FF
+
+![Screenshot #8](https://github.com/lucazzzzz/Lab2/blob/master/Images/OuvrirPowerShellVideoplayerPY.JPG)
