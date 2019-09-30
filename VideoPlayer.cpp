@@ -1,4 +1,4 @@
-include "VideoPlayer.h"
+#include "VideoPlayer.h"
 
 
 Videoplayer::Videoplayer()
@@ -49,7 +49,7 @@ void Videoplayer::End()
 	{
 		// Wait for completion.
 		long evCode;
-		pEvent->WaitForCompletion(1000, &evCode);
+		pEvent->WaitForCompletion(100, &evCode);
 
 		// Note: Do not use INFINITE in a real application, because it
 		// can block indefinitely.
@@ -60,3 +60,35 @@ void Videoplayer::End()
 	pGraph->Release();
 	CoUninitialize();
 }
+
+void Videoplayer::Pause()
+{
+	hr = pControl->Pause();
+}
+
+void Videoplayer::FF()
+{
+	hr = pSeek->SetRate(2.0);
+}
+void Videoplayer::NF() {
+	hr = pSeek->SetRate(1.0);
+}
+
+void Videoplayer::RetourArriere()
+{
+	hr = pSeek->IsFormatSupported(&TIME_FORMAT_FRAME);
+	if (hr == S_OK)
+	{
+		hr = pSeek->SetTimeFormat(&TIME_FORMAT_FRAME);
+		if (SUCCEEDED(hr))
+		{
+			// Seek to frame number 0.
+			LONGLONG rtNow = 0;
+			hr = pSeek->SetPositions(
+				&rtNow, AM_SEEKING_AbsolutePositioning,
+				0, AM_SEEKING_NoPositioning);
+		}
+	}
+}
+
+
