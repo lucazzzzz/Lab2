@@ -10,7 +10,7 @@ Ensuite, il faut ajouter tous les fichiers d'en-tête et tous les fichiers sourc
 
 ![Screenshot #2](https://github.com/lucazzzzz/Lab2/blob/master/Images/AjouterFichiersdeGit.JPG)
 
-Finalement, il faut régler correctement les propriétés du projet pour que le code fonctionne! Voici 3 images qui illustrent tous les ajouts à faire sur VisualStudio (ne pas oublier de changer les options pour Release et x64) :
+Finalement, il faut régler correctement les propriétés du projet pour que le code fonctionne! Voici 3 images qui illustrent toutes les librairies à ajouter et toutes les configurations à changer sur VisualStudio (ne pas oublier de changer les options de configuration pour Release et les options de plateforme pour x64) :
 
 ![Screenshot #3](https://github.com/lucazzzzz/Lab2/blob/master/Images/ProprietesProjetLib.JPG)
 
@@ -18,14 +18,12 @@ Finalement, il faut régler correctement les propriétés du projet pour que le 
 
 ![Screenshot #5](https://github.com/lucazzzzz/Lab2/blob/master/Images/LibrairieDirectShow.JPG)
 
-faire le pip install readchar pour utiliser la librairie
+## Ajouter la vidéo sur le C:/
 
-mettre la vidéo dans le C:/
+Il ne faut pas oublier d'ajouter la vidéo à manipuler au bon endroit, pour notre code se sera le disque C:/
 
-lancer la console de commande dans le même endroit que le .py
+![Screenshot #6](https://github.com/lucazzzzz/Lab2/blob/master/Images/ExampleAVI.JPG)
 
-créer environnement pour python
+## Configuration Python
 
-écrire commandes "p,a,r,q" dans la console de commandes
 
-python -m venv le_nom_du_venv
