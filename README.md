@@ -30,6 +30,8 @@ Il ne reste que le fichier videoplayer.py à ajouter au bon endroit, se sera dan
 
 ![Screenshot #7](https://github.com/lucazzzzz/Lab2/blob/master/Images/AjouterPYmyModule.JPG)
 
-FF
-
 ![Screenshot #8](https://github.com/lucazzzzz/Lab2/blob/master/Images/OuvrirPowerShellVideoplayerPY.JPG)
+
+Maintenant il faut créer l'environnement virtuel pour exécuter le fichier videoplayer.py et installer la librairie readchar pour que le code fonctionne. Voici une image de toutes les commandes à effectuer sur la console de commande:
+
+![Screenshot #9](https://github.com/lucazzzzz/Lab2/blob/master/Images/PipInstall.JPG)
