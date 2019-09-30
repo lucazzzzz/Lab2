@@ -2,9 +2,13 @@
 
 ## Créer Projet VisualStudio
 
-Pour commencer, il faut tout d'abord créer un projet VisualStudio dans le dossier de notre choix
+Pour commencer, il faut tout d'abord créer un projet VisualStudio en C++ dans le dossier de notre choix:
 
 ![Screenshot #1](https://github.com/lucazzzzz/Lab2/blob/master/Images/CreerProjetVS.JPG)
+
+Ensuite, il faut ajouter tous les fichiers d'en-tête et tous les fichiers sources au projet:
+
+![Screenshot #2](https://github.com/lucazzzzz/Lab2/blob/master/Images/AjouterFichiersdeGit.JPG)
 
 générer le module .pyd au même endroit que le .py
 
