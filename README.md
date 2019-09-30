@@ -35,3 +35,5 @@ Il ne reste que le fichier videoplayer.py à ajouter au bon endroit, se sera dan
 Maintenant il faut créer l'environnement virtuel pour exécuter le fichier videoplayer.py et installer la librairie readchar pour que le code fonctionne. Voici une image de toutes les commandes à effectuer sur la console de commande:
 
 ![Screenshot #9](https://github.com/lucazzzzz/Lab2/blob/master/Images/PipInstall.JPG)
+
+La dernière commande "python videoplayer.py" va exécuter le code et la vidéo vas démarrer simultanément. Afin de contrôler la vidéo avec les commandes "p pour pause/play, r pour retour arrière, a pour avance rapide et q pour quitter", il faut taper ces commandes sur la console de commande sinon les touches ne seront pas enregistrées.
